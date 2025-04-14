@@ -1,0 +1,1 @@
+Graphics crash destroys game save The game crashed entering world B6 GPU Crash dump Triggered Talos1_Win64_Shipping kernel32 ntdll As result loading savegame leads crashes

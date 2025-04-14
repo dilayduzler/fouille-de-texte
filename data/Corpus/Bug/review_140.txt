@@ -1,0 +1,1 @@
+Unable Launch Getting two errors launching game One saying update NVIDIA saying Out video memory trying allocate rendering resource Make sure video card minimum required memory try lowering resolution closing applications running Exiting Do fix ?

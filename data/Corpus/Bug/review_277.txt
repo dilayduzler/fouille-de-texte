@@ -1,0 +1,1 @@
+Stuttering issues I getting stuttering frames laggy input Seems mostly happen outside outside visible window Tried turning VSYNC see smoothed I got screen tearing I turned VSYNC back Just minor annoyance I hope gets patched

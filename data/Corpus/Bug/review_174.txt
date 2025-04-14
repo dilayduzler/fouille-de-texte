@@ -1,0 +1,1 @@
+Motion blur keeps re-enabling If I disable motion blur settings seems enabled whenever I interact something like note The option still disabled settings I clearly see motion blur active

@@ -1,0 +1,1 @@
+bug billiard room dart board final solution 1 2 squared -1 -2 would equal six since 3 squared 9 press 6 button work

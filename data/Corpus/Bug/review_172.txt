@@ -1,0 +1,1 @@
+Two bugs 1 In trade level end opening scene immediately start walking character move forward camera remains place 2 In nightmare level pause game air pushes exit stage

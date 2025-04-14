@@ -1,0 +1,1 @@
+BUG ranged weapon doesnt work After one level restarts I noticed weapon repeating crossbow changed default blunderbass 0 damage literally - shot I see healthbars enemies implies damage done even several shots doesnt change bars I tried restarting level changing weapon armory crafting new weapon even restarting game - help I still starting 0 dmg weapon Melee working fine
