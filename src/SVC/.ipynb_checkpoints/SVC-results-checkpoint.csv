@@ -1,0 +1,4 @@
+Classe,Precision,Recall,F1-score,Support
+Bug,0.80,0.80,0.80,25
+Feature,0.61,0.76,0.68,25
+Feedback,0.79,0.60,0.68,25
