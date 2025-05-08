@@ -15,7 +15,7 @@ from sklearn.metrics import classification_report
 ### Parameters ###
 MODEL_PATH = "naive_bayes_model.joblib"         # Trained model
 TEST_CSV_PATH = "data/intermediate/cleaned_dataset_test.csv"    # Test corpus
-OUTPUT_PATH = "test_resultats.csv"          # Output file 
+OUTPUT_PATH = 'data/results/Eval-nb/NB_test_results.csv'       # Output file 
 OUTPUT_DIR = "data/corpus_class_nb"          # Output dir
 
 ### Charging trained model ###
@@ -87,7 +87,7 @@ if 'Category' in df_test.columns:
 #############################################################################@
 
 ### Predicions Save ###
-OUTPUT_PATH = 'data/results/NB_test_results.csv'
+
 df_test.to_csv(OUTPUT_PATH, index=False)
 print(f"\n✅ Résultats sauvegardés dans : {OUTPUT_PATH}")
 
@@ -98,7 +98,7 @@ print(f"\n✅ Résultats sauvegardés dans : {OUTPUT_PATH}")
 ### classification ###
 
 
-test_data = pd.read_csv("data/results/NB_test_results.csv")
+test_data = pd.read_csv("data/results/Eval-nb/NB_test_results.csv")
 
 
 # create dir
