@@ -1,0 +1,1 @@
+error launching game hello anyone encountered problem ? when i start game says game immediately closes vcruntime140 dll designed run windows contains error try reinstalling program using original installation media contact system administrator software vendor assistance error status 0xc000012f i tried fix
