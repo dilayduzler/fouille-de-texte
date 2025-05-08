@@ -13,9 +13,10 @@ from sklearn.metrics import classification_report
 # Parameter and charging model
 
 ### Parameters ###
-MODEL_PATH = "naive_bayes_model.joblib"     # Trained model
+MODEL_PATH = "naive_bayes_model.joblib"         # Trained model
 TEST_CSV_PATH = "data/intermediate/cleaned_dataset_test.csv"    # Test corpus
 OUTPUT_PATH = "test_resultats.csv"          # Output file 
+OUTPUT_DIR = "data/corpus_class_nb"          # Output dir
 
 ### Charging trained model ###
 print("Chargement du modèle...")
@@ -46,12 +47,12 @@ df_test['Prediction'] = model.predict(df_test['Review'])
 
 ########################################################
 
-### Évaluation si la colonne 'Category' est présente ###
+### Evaluation (if 'Category' true) ###
 if 'Category' in df_test.columns:
     # Nettoyage : suppression des lignes sans catégorie réelle
     df_test_clean = df_test.dropna(subset=['Category'])
 
-    # Normalisation des étiquettes
+    # normalize name
     df_test_clean['Category'] = df_test_clean['Category'].str.strip().str.capitalize()
     df_test_clean['Prediction'] = df_test_clean['Prediction'].str.strip().str.capitalize()
 
@@ -89,3 +90,32 @@ if 'Category' in df_test.columns:
 OUTPUT_PATH = 'data/results/NB_test_results.csv'
 df_test.to_csv(OUTPUT_PATH, index=False)
 print(f"\n✅ Résultats sauvegardés dans : {OUTPUT_PATH}")
+
+
+
+############################################################################@
+
+### classification ###
+
+
+test_data = pd.read_csv("data/results/NB_test_results.csv")
+
+
+# create dir
+categories = test_data['Prediction'].unique()
+for category in categories:
+    os.makedirs(f"{OUTPUT_DIR}/{category}", exist_ok=True)
+
+# save review in dir
+for index, row in test_data.iterrows():
+    category = row['Prediction']
+    content = row['Review']
+    filename = f"{OUTPUT_DIR}/{category}/comment_{index+1}.txt"
+    with open(filename, "w", encoding="utf-8") as f:
+        f.write(content)
+
+print(f"\n✅ Tous les commentaires ont été classés dans : '{OUTPUT_DIR}/[Bug|Feature|Feedback]/'")
+
+
+
+
