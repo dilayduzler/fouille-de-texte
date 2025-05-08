@@ -1,0 +1,75 @@
+[1] Identique : bug
+[10] Identique : bug
+[11] Identique : bug
+[12] Identique : bug
+[13] Identique : bug
+[14] Identique : bug
+[15] Identique : bug
+[16] Identique : bug
+[17] Identique : bug
+[18] Identique : feature
+[19] Identique : bug
+[2] Identique : bug
+[20] Identique : bug
+[21] Identique : bug
+[22] Différent : fichier1 = bug, fichier2 = feedback
+[23] Identique : bug
+[24] Identique : bug
+[25] Différent : fichier1 = bug, fichier2 = feature
+[26] Identique : feedback
+[27] Différent : fichier1 = feedback, fichier2 = feature
+[28] Identique : feedback
+[29] Différent : fichier1 = feedback, fichier2 = bug
+[3] Identique : bug
+[30] Identique : feedback
+[31] Identique : feedback
+[32] Différent : fichier1 = feedback, fichier2 = bug
+[33] Différent : fichier1 = feedback, fichier2 = feature
+[34] Identique : feature
+[35] Différent : fichier1 = feedback, fichier2 = feature
+[36] Identique : feedback
+[37] Identique : feedback
+[38] Différent : fichier1 = feedback, fichier2 = feature
+[39] Identique : feedback
+[4] Identique : bug
+[40] Identique : feedback
+[41] Identique : feedback
+[42] Différent : fichier1 = feedback, fichier2 = feature
+[43] Identique : feedback
+[44] Différent : fichier1 = feedback, fichier2 = feature
+[45] Différent : fichier1 = feedback, fichier2 = feature
+[46] Identique : feedback
+[47] Identique : feedback
+[48] Identique : feedback
+[49] Identique : feedback
+[5] Identique : bug
+[50] Identique : feedback
+[51] Différent : fichier1 = feature, fichier2 = feedback
+[52] Différent : fichier1 = feedback, fichier2 = feature
+[53] Identique : feedback
+[54] Identique : feature
+[55] Identique : feature
+[56] Identique : bug
+[57] Identique : feature
+[58] Identique : feature
+[59] Différent : fichier1 = feedback, fichier2 = feature
+[6] Différent : fichier1 = feedback, fichier2 = bug
+[60] Identique : feature
+[61] Différent : fichier1 = feedback, fichier2 = feature
+[62] Identique : feature
+[63] Identique : feature
+[64] Différent : fichier1 = feedback, fichier2 = feature
+[65] Différent : fichier1 = feedback, fichier2 = feature
+[66] Identique : feature
+[67] Différent : fichier1 = feedback, fichier2 = feature
+[68] Différent : fichier1 = feedback, fichier2 = feature
+[69] Identique : feature
+[7] Différent : fichier1 = bug, fichier2 = feature
+[70] Identique : bug
+[71] Identique : feature
+[72] Identique : feature
+[73] Différent : fichier1 = feedback, fichier2 = bug
+[74] Identique : feedback
+[75] Identique : feature
+[8] Différent : fichier1 = bug, fichier2 = feature
+[9] Identique : bug
